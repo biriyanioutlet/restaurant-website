@@ -1,5 +1,5 @@
 // // components/index.ts
-// export { default as Menu } from './Menu';
+export { default as Menu } from './Menu';
 // export { default as ContactUs } from './ContactUs';
 // export { default as Partners } from './Partners';
 // export { default as ImageSlider } from './ImageSlider/ImageSlider';

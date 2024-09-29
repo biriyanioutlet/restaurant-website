@@ -1,7 +1,6 @@
 import React from 'react';
-import { Footer } from './components';
+import { Menu, Footer } from './components';
 // import logo from './logo.svg';
-// import './App.css';
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+       <Menu backgroundColor="#f0f4f8" />
       <Footer />
     </div>
   );
