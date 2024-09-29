@@ -11,13 +11,13 @@ const CustomerReviews: React.FC = () => {
   const displayedReviews = reviews.slice(currentIndex, currentIndex + 3);
 
   // Function to handle next and previous pagination
-  const handlePagination = (direction: 'next' | 'prev') => {
-    if (direction === 'next' && currentIndex + 3 < reviews.length) {
-      setCurrentIndex(currentIndex + 3);
-    } else if (direction === 'prev' && currentIndex > 0) {
-      setCurrentIndex(currentIndex - 3);
-    }
-  };
+  // const handlePagination = (direction: 'next' | 'prev') => {
+  //   if (direction === 'next' && currentIndex + 3 < reviews.length) {
+  //     setCurrentIndex(currentIndex + 3);
+  //   } else if (direction === 'prev' && currentIndex > 0) {
+  //     setCurrentIndex(currentIndex - 3);
+  //   }
+  // };
 
   return (
     <div id="reviews" className="p-4 md:p-8 lg:p-12">

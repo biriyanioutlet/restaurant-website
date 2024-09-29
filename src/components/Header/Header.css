@@ -1,0 +1,19 @@
+.header {
+  position: fixed; /* Keep the header at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content inside the header */
+  align-items: center; /* Center items vertically */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 5px 20px; /* Adjusted padding for spacing */
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+.header-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Ensure it takes the full width of the header */
+}

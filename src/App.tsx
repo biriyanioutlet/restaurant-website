@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, CustomerReviews, Footer } from './components';
+import { Header, Menu, CustomerReviews, Footer } from './components';
 // import logo from './logo.svg';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header />
       <Menu backgroundColor="#f0f4f8" />
       <CustomerReviews />
       <Footer />
