@@ -1,0 +1,200 @@
+{
+  "companyName": "Biryani Outlet",
+  "phoneNumber": "+16137966199", 
+  "email":"biryanioutlet@gmail.com",
+  "address": {
+    "address1": "22 Antares Dr Unit K,",
+    "address2": " Nepean, ON K2E 7Z6"
+  },
+  "openHours": [
+    { "day": "Monday", "hours": "Closed"},
+    { "day": "Tuesday", "hours": "11:30 a.m – 08:00 p.m" },
+    { "day": "Wednesday", "hours": "11:30 a.m – 08:00 p.m" },
+    { "day": "Thursday", "hours": "10:30 a.m. – 08:00 p.m" },
+    {"day": "Friday", "hours": "11:30 a.m. – 08:00 p.m" },
+    {"day": "Saturday", "hours": "11:30 a.m. – 08:00 p.m" },
+    {"day": "Sunday", "hours": "11:30 a.m. – 08:00 p.m" }
+  ],
+  "imageList": [
+    {
+      "src": "/images/CB_1094.png",
+      "alt": "Delicious Chicken Biryani",
+      "srcSet": [
+        "/images/CB_300.png 300w", "/images/CB_729.png 729w", "/images/CB_902.png 902w", "/images/CB_1094.png 1094w"],
+      "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "tag": "Biryani: where every bite is a celebration of flavors!"
+    },
+    {
+      "src": "/images/CSD_1024.png",
+      "alt": "Starter",
+      "srcSet":
+        ["/images/CSD_300.png 300w", "/images/CSD_560.png 560w", "/images/CSD_737.png 737w", "/images/CSD_900.png 900w", "/images/CSD_1024.png 1024w"],
+      "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "tag": "Good starters make for great meals"
+    },
+    {
+      "src": "/images/CSW_1024.png",
+      "alt": "Starter",
+      "srcSet":
+        ["/images/CSW_300.png 300w", "/images/CSW_546.png 546w", "/images/CSW_753.png 753w", "/images/CSW_912.png 912w", "/images/CSW_1024.png 1024w"],
+      "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "tag": "Start with a bite, savor the delight!"
+    },
+    {
+      "src": "/images/p_1024.png",
+      "alt": "Curry",
+      "srcSet":
+        ["/images/p_300.png 300w", "/images/p_559.png 559w", "/images/p_737.png 737w", "/images/p_895.png 895w", "/images/p_1024.png 1024w"],
+      "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      "tag": "A good curry warms the heart and feeds the soul"
+    }
+  ],
+  "menu": [
+    {
+      "category": "Appetizers",
+      "items": [
+        { "name": "Chicken Fry", "price": "$12.99", "type":"non-veg" },
+        { "name": "Chicken 65 - Dry", "price": "$12.99" , "type":"non-veg"},
+        { "name": "Chicken 65 - Wet", "price": "$12.99", "type":"non-veg" },
+        { "name": "Egg Fry", "price": "$11.99", "type":"non-veg" },
+        { "name": "Crispy Corn", "price": "$9.99", "type":"veg" },
+        { "name": "Paneer Fry", "price": "$11.99",  "type":"veg" },
+        { "name": "Paneer 65", "price": "$11.99",  "type":"veg" }
+      ]
+    },
+      {
+      "category": "Curries",
+      "items": [
+        { "name": "Chicken Mughalai Curry", "price": "$12.99", "type":"non-veg" },
+        { "name": "Boneless Chicken Curry", "price": "$12.99" , "type":"non-veg"},
+        { "name": "Chicken curry", "price": "$12.99", "type":"non-veg" },
+        { "name": "Cashew Chicken Curry", "price": "$12.99", "type":"non-veg" },
+        { "name": "Butter Chicken (Rice / Naan)", "price": "$12.99", "type":"non-veg" },
+        { "name": "Egg Burji (porch egg)", "price": "$11.99", "type":"non-veg" },
+        { "name": "Dal Tadka", "price": "$9.99",  "type":"veg" },
+        { "name": "Mixed Vegetable Curry", "price": "$11.99",  "type":"veg" },
+        { "name": "Paneer Butter Masala", "price": "$11.99",  "type":"veg" },
+        { "name": "Kaju Tomato Curry", "price": "$11.99",  "type":"veg"}
+      ]
+    },
+       {
+      "category": "Indian Style Street Rice",
+      "items": [
+        { "name": "Jeera(Cumin) Rice", "price": "$8.99",  "type":"veg" },
+        { "name": "Dal Rice", "price": "$9.99",  "type":"veg" },
+        { "name": "Mango Pickle Dal Rice", "price": "$9.99",  "type":"veg" },
+        { "name": "Veg Fried Rice", "price": "$12.99",  "type":"veg" },
+        { "name": "Paneer Fried Rice", "price": "$12.99" ,  "type":"veg"},
+        { "name": "Egg Fried Rice", "price": "$12.99", "type":"non-veg" },
+        { "name": "Chicken Fried Rice", "price": "$13.99", "type":"non-veg" }
+      ]
+    },      {
+      "category": "Biryani",
+      "items": [
+        { "name": "Chicken Dum Biryani", "price": "$11.49", "type":"non-veg" },
+        { "name": "Boneless Chicken Biryani", "price": "$11.99", "type":"non-veg" },
+        { "name": "Chicken Fry Piece Biryani", "price": "$11.99", "type":"non-veg" },
+        { "name": "Chicken 65 Biryani", "price": "$11.99", "type":"non-veg" },
+        { "name": "Mughalai Biryani", "price": "$11.99", "type":"non-veg" },
+        { "name": "Egg Biryani", "price": "$10.99","type":"non-veg" },
+        { "name": "Veg Biryani", "price": "$9.99",  "type":"veg" },
+        { "name": "Paneer Biryani", "price": "$10.99",  "type":"veg" },
+        { "name": "Kaju Paneer Biryani", "price": "$11.49",  "type":"veg" }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "items": [
+        { "name": "Irani Chai", "price": "$2.99" },
+        { "name": "Masala Tea", "price": "$2.49" },
+        { "name": "Cardamom Chai", "price": "$2.49" },
+        { "name": "Hot Chocolate", "price": "$2.49" },
+        { "name": "Cappuccino", "price": "$2.49" }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "items": [
+        { "name": "Mango Lassi", "price": "$3.99" },
+        { "name": "Lemonaide", "price": "$2.99" },
+        { "name": "Pop", "price": "$1.49" },
+        { "name": "Water", "price": "$1.49" }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        { "name": "Gulab Jamun", "price": "$3.99" },
+         { "name": "Carrot Halwa", "price": "$3.99" },
+        { "name": "Ras Malai", "price": "$3.99" }
+      ]
+    }
+  ], 
+  "reviews": [
+    {
+      "name": "Loreto Urquiza",
+      "review":
+        "They have the tastiest butter chicken. NO chemical aftertaste. I'd say it's perfect, actually! This outlet's portions are good and the service is prompt. Their packaging is leak-free... it never opens nor falls apart. My fellow colleagues are also pleased with them. We are quickly becoming regulars.",
+      "rating": 5
+    },
+    {
+      "name": "Varsha Vinnakota",
+      "review":
+        "In this day - with these prices! I'm loving it. Have ordered the loaded chicken bowl and it was worth it. The rice was so delicious, flavorful, and fresh. Would like to see more salad next time :) And make a red carpet for Irani chai <3",
+      "rating": 5
+    },
+    {
+      "name": "Eric Hill-Keast",
+      "review":
+        "Great takeout! Stumbled upon this place a few weeks back and keep going back. Excellent food, great prices, and friendly staff. Ordered lunch for a group of 15 last week and it was a great experience. Called in the order the day before, and they called me about an hour before pickup to confirm the order and give me the chance to make last minute changes. Food was ready on time, and they even helped me carry it out to my car.",
+      "rating": 5
+    },
+    {
+      "name": "Bharath Victor",
+      "review":
+        "As we know, we have a growing competition recently in Ottawa with many new restaurants in town but trust me... maintaining this good quality and taste with this pricing is a big HIT & MUST TRY. I would rate the taste 9.5/10 with 10/10 in pricing. As of today I loved chicken65 biryani and chicken starters that I tried.",
+      "rating": 5
+    },
+    {
+      "name": "Muhammad Akram",
+      "review":
+        "Just found this hidden gem today while browsing for halal options for lunch near my office. I am glad I decided to go and try it. I ordered Chicken Biryani and my first impression was 'Man this seems to be a big portion'. Opened up the container and the aromatic basmati rice with an abundance of chicken and the first bite gave me that Wowww. So flavorful and perfect balance of spices meat and rice with yogurt raita. I would definitely go again and try other dishes that they offer. Highly recommended 👏👏",
+      "rating": 5
+    },
+    {
+      "name": "Raju Palath",
+      "review":
+        "I bought vegetable Biriyani on February 07, 2024. Tasty food at an affordable price. Take out only. Good quality and quantity. Recommend this place.",
+      "rating": 5
+    },
+    {
+      "name": "John Gavin",
+      "review":
+        "Popped in for a late lunch, asked for a Butter Chicken Bowl and received it in under 5 mins. I'm writing this review whilst eating the bowl; it is unreal! Definitely try this place out if you can.",
+      "rating": 5
+    },
+    {
+      "name": "Premnath Chiruvella",
+      "review":
+        "At the Biryani Outlet, the affordable prices don’t compromise on the quantity and taste. The food we ordered was not just delicious but also easy on the wallet. Finally, a wallet-friendly gem delivering great flavors from India, in Ottawa!",
+      "rating": 5
+    }
+  ],
+  "partners":[
+  {
+    "name": "SkipTheDishes",
+    "logo": "/images/partners/skip1.svg",
+    "url": "https://www.skipthedishes.com/biryani-outlet-antares-drive"
+  },
+  {
+    "name": "DoorDash",
+    "logo": "/images/partners/doordash.png",
+    "url": "https://www.doordash.com/store/biryani-outlet-ottawa-27719902"
+  },
+  {
+    "name": "UberEats",
+    "logo":"/images/partners/ue.svg",
+    "url":"https://www.ubereats.com/ca/store/biryani-outlet"
+  }
+  ]
+}
