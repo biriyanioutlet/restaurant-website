@@ -1,6 +1,6 @@
 {
   "name": "restaurant-website",
-  "homepage":"https://biriyanioutlet.github.io",
+  "homepage": "https://biriyanioutlet.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.36.1",
     "eslint-plugin-react-hooks": "^4.6.2",
     "postcss": "^8.4.47",
+    "prettier": "3.3.3",
     "tailwindcss": "^3.4.12"
   }
 }
