@@ -97,7 +97,7 @@ const ContactPage: React.FC<ContactPageProps> = ({
                   )}
                   <button
                     onClick={toggleShowAll}
-                    className="bg-blue-600 text-white py-2 px-4 rounded-md text-sm md:text-base lg:text-lg hover:bg-blue-700 transition duration-300"
+                    className="bg-blue-600 text-white py-2 mt-4 px-4 rounded-md text-sm md:text-base lg:text-lg hover:bg-blue-700 transition duration-300"
                   >
                     {showAll ? 'Show Today' : 'Show All Days'}
                   </button>
