@@ -1,6 +1,6 @@
 {
   "companyName": "Biryani Outlet",
-  "phoneNumber": "+16137966199", 
+  "phoneNumber": "+1 (613) 796-6199", 
   "email":"biryanioutlet@gmail.com",
   "address": {
     "address1": "22 Antares Dr Unit K,",
@@ -180,7 +180,7 @@
   },
   {
     "name": "DoorDash",
-    "logo": "/images/partners/doordash.png",
+    "logo": "/images/partners/doordash1.png",
     "url": "https://www.doordash.com/store/biryani-outlet-ottawa-27719902"
   },
   {
