@@ -175,17 +175,17 @@
   "partners":[
   {
     "name": "SkipTheDishes",
-    "logo": "/images/partners/skip1.svg",
+    "logo": "/images/partners/skipTheDishes_logo.svg",
     "url": "https://www.skipthedishes.com/biryani-outlet-antares-drive"
   },
   {
     "name": "DoorDash",
-    "logo": "/images/partners/doordash1.png",
+    "logo": "/images/partners/doordash_logo.png",
     "url": "https://www.doordash.com/store/biryani-outlet-ottawa-27719902"
   },
   {
     "name": "UberEats",
-    "logo":"/images/partners/ue.svg",
+    "logo":"/images/partners/uberEats_logo.svg",
     "url":"https://www.ubereats.com/ca/store/biryani-outlet"
   }
   ]

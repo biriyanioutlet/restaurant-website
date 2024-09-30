@@ -9,7 +9,6 @@ import {
   ContactUs,
   Footer,
 } from './components';
-// import logo from './logo.svg';
 
 function App() {
   return (
