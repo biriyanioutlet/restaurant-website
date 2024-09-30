@@ -8,8 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between">
           {/* Company Information */}
           <div className="mb-4 md:mb-0">
-            <h2 className="text-lg font-semibold"> {restroData.companyName}</h2>
-            <br />
+            <h2 className="text-lg font-semibold">{restroData.companyName}</h2>
             <br />
             <address className="not-italic">
               {restroData.address.address1}
