@@ -22,7 +22,6 @@ function App() {
       <Partners />
       <ContactUs backgroundColor="#f0f4f8" />
       <Footer />
-      <Footer />
     </div>
   );
 }
