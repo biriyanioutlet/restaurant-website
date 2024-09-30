@@ -1,5 +1,11 @@
 import React from 'react';
-import { Header, Menu, CustomerReviews, Footer } from './components';
+import {
+  Header,
+  ImageSlider,
+  Menu,
+  CustomerReviews,
+  Footer,
+} from './components';
 // import logo from './logo.svg';
 
 function App() {
