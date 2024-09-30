@@ -8,25 +8,24 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between">
           {/* Company Information */}
           <div className="mb-4 md:mb-0">
-            <h2 className="text-lg font-semibold">    {restroData.companyName}</h2>
-              <br />
-              <br />
-              <address className="not-italic">
-                {restroData.address.address1}
-                <br /> {restroData.address.address2}
-              </address>
-              <a href="tel:+16137966199" className="hover:underline">
-                {restroData.phoneNumber}
-              </a>
-              <br />
-              <br />
-              <a
-                href="mailto:biriyanioutlet@gmail.com"
-                className="hover:underline"
-              >
-                {restroData.email}
-              </a>
-            </p>
+            <h2 className="text-lg font-semibold"> {restroData.companyName}</h2>
+            <br />
+            <br />
+            <address className="not-italic">
+              {restroData.address.address1}
+              <br /> {restroData.address.address2}
+            </address>
+            <a href="tel:+16137966199" className="hover:underline">
+              {restroData.phoneNumber}
+            </a>
+            <br />
+            <br />
+            <a
+              href="mailto:biriyanioutlet@gmail.com"
+              className="hover:underline"
+            >
+              {restroData.email}
+            </a>
           </div>
 
           {/* Navigation Links */}
