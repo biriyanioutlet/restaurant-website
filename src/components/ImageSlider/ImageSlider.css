@@ -1,0 +1,67 @@
+.slider {
+  width: 100vw; /* Full width of the viewport */
+  height: 90vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevent overflow */
+  position: relative; /* Positioning context for absolute children */
+  /* margin-top: 64px; */
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+  height: 100%; /* Match height of the slider */
+}
+
+.slider-slide {
+  min-width: 100%; /* Each slide takes the full width */
+  height: 100%; /* Each slide takes the full height */
+  position: relative;
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.slider-slide img {
+  width: 100%; /* Make the image take the full width */
+  height: 100%; /* Make the image take the full height */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.slider-text {
+  position: absolute; /* Absolute positioning for overlay */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for text size */
+  font-family: 'Cursive', sans-serif; /* Use a cursive font */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); /* Optional shadow for readability */
+  text-align: center; /* Center text alignment */
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Updated dot styling */
+.slider-dots {
+  position: absolute;
+  bottom: 30px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 10; /* Ensure dots are above the images */
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  display: inline-block;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}

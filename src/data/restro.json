@@ -18,33 +18,25 @@
   "imageList": [
     {
       "src": "/images/CB_1094.png",
-      "alt": "Delicious Chicken Biryani",
-      "srcSet": [
-        "/images/CB_300.png 300w", "/images/CB_729.png 729w", "/images/CB_902.png 902w", "/images/CB_1094.png 1094w"],
+      "alt": "Chicken Biryani image",
       "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
       "tag": "Biryani: where every bite is a celebration of flavors!"
     },
     {
       "src": "/images/CSD_1024.png",
-      "alt": "Starter",
-      "srcSet":
-        ["/images/CSD_300.png 300w", "/images/CSD_560.png 560w", "/images/CSD_737.png 737w", "/images/CSD_900.png 900w", "/images/CSD_1024.png 1024w"],
+      "alt": "Starter image",
       "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
       "tag": "Good starters make for great meals"
     },
     {
       "src": "/images/CSW_1024.png",
-      "alt": "Starter",
-      "srcSet":
-        ["/images/CSW_300.png 300w", "/images/CSW_546.png 546w", "/images/CSW_753.png 753w", "/images/CSW_912.png 912w", "/images/CSW_1024.png 1024w"],
+      "alt": "Starter image",
       "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
       "tag": "Start with a bite, savor the delight!"
     },
     {
       "src": "/images/p_1024.png",
-      "alt": "Curry",
-      "srcSet":
-        ["/images/p_300.png 300w", "/images/p_559.png 559w", "/images/p_737.png 737w", "/images/p_895.png 895w", "/images/p_1024.png 1024w"],
+      "alt": "Curry image",
       "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw",
       "tag": "A good curry warms the heart and feeds the soul"
     }
